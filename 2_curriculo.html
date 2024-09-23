@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Isaac</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        body {
+            background-color: rgb(19, 17, 17);
+            font-family: 'Poppins', sans-serif;
+        }
+        .tituloMenu {
+            color: white;
+        }
+        .apresentacaoMenu {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .navbar p {
+            margin: 10px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            color: #FF4500;
+        }
+        p {
+            margin: 10px;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px; 
+        }
+        section {
+            max-width: 800px; 
+            width: 100%; 
+            margin: 10px 0; 
+            text-align: left; 
+        }
+        
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            border: 1px solid #FF4500;
+        }
+        th, td {
+            border: 1px solid #FF4500;
+            padding: 10px;
+            color: white;
+        }
+        th {
+            background-color: #FF4500;
+        }
+        tr:nth-child(even) {
+            background-color: rgba(255, 69, 0, 0.2); 
+        }
+    </style>
+</head>
+<body>
+    <img src="isaac.jpg" style="width: 180px;height: 180px; border-radius: 100px;">
+    <header>
+        <div class="apresentacaoMenu">
+            <div class="tituloMenu">
+                <h2><strong>Isaac Carvalho Da Mota -</strong><span style="color: #FF4500;"> Desenvolvedor Web - Java</span></h2>
+            </div>
+            <div class="logoJava">                
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48"> 
+                    <path fill="#F44336" d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"></path>
+                    <path fill="#F44336" d="M23.878,17.27c-0.192,2.516,2.229,3.857,2.299,5.695c0.056,1.496-1.447,2.743-1.447,2.743s2.728-0.536,3.579-2.818c0.945-2.534-1.834-4.269-1.548-6.298c0.267-1.938,6.031-5.543,6.031-5.543S24.311,11.611,23.878,17.27z"></path>
+                    <g>
+                        <path fill="#1565C0" d="M32.084 25.055c1.754-.394 3.233.723 3.233 2.01 0 2.901-4.021 5.643-4.021 5.643s6.225-.742 6.225-5.505C37.521 24.053 34.464 23.266 32.084 25.055zM29.129 27.395c0 0 1.941-1.383 2.458-1.902-4.763 1.011-15.638 1.147-15.638.269 0-.809 3.507-1.638 3.507-1.638s-7.773-.112-7.773 2.181C11.683 28.695 21.858 28.866 29.129 27.395z"></path>
+                        <path fill="#1565C0" d="M27.935,29.571c-4.509,1.499-12.814,1.02-10.354-0.993c-1.198,0-2.974,0.963-2.974,1.889c0,1.857,8.982,3.291,15.63,0.572L27.935,29.571z"></path>
+                        <path fill="#1565C0" d="M18.686,32.739c-1.636,0-2.695,1.054-2.695,1.822c0,2.391,9.76,2.632,13.627,0.205l-2.458-1.632C24.271,34.404,17.014,34.579,18.686,32.739z"></path>
+                        <path fill="#1565C0" d="M36.281,36.632c0-0.936-1.055-1.377-1.433-1.588c2.228,5.373-22.317,4.956-22.317,1.784c0-0.721,1.807-1.427,3.477-1.093l-1.42-0.839C11.26,34.374,9,35.837,9,37.017C9,42.52,36.281,42.255,36.281,36.632z"></path>
+                        <path fill="#1565C0" d="M39,38.604c-4.146,4.095-14.659,5.587-25.231,3.057C24.341,46.164,38.95,43.628,39,38.604z"></path>
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <p><a href="#sobre-mim">Sobre mim</a></p>
+            <p><a href="#experiencia">Experiência</a></p>
+            <p><a href="#habilidades">Habilidades</a></p>
+            <p><a href="#contato">Contato</a></p>
+            <p><a href="#tabela">Agenda</a></p>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre-mim" style="color: white; padding: 20px;">
+            <h2 style="color: #FF4500;">Sobre mim</h2>
+            <p>Desenvolvedor web qualificado para estruturar sites e aplicações web. Sou extremamente comunicativo e apto a aprender novas tecnologias e metodologias.</p>
+        </section>
+
+        <section id="experiencia" style="color: white; padding: 20px;">
+            <h2 style="color: #FF4500;">Experiência</h2>
+            <ul>
+                <li>
+                    <strong>Desenvolvedor Web - Estágio</strong><br>
+                    <em>ITPower Softwares | 05/2022 - 10/2022</em>
+                    <ul>
+                        <li>Desenvolvi e mantive diversos sites e aplicações web utilizando tecnologias como HTML5, Javascript, CSS, Coldfusion, Bootstrap, entre outras, e Git para versionamento.</li>
+                        <li>Atendia chamados e criava telas do zero para diversas empresas.</li>
+                        <li>Fui líder da minha equipe no estágio.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Analista de Suporte</strong><br>
+                    <em>Solução Compacta | 10/2023 - 02/2024</em>
+                    <ul>
+                        <li>Prestava suporte de qualidade aos usuários do sistema Protheus (ERP TOTVS).</li>
+                        <li>Atendia chamados diversos e solucionava erros e bugs em contato direto com os usuários do sistema.</li>
+                        <li>Manuseava o banco de dados via SQL (gerava consultas, criava tabelas, procedures, etc.).</li>
+                        <li>Desenvolvia rotinas em ADVPL (linguagem utilizada no Protheus).</li>
+                        <li>Utilizava o pacote Office para relatórios, dashboards e documentações.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="habilidades" style="color: white; padding: 20px;">
+            <h2 style="color: #FF4500;">Habilidades</h2>
+            <h3>Linguagens de Programação / Banco de Dados</h3>
+            <ul>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Java</li>
+                <li>SQL</li>
+            </ul>
+
+            <h3>Frameworks</h3>
+            <ul>
+                <li>Vue.js</li>
+                <li>Bootstrap</li>
+            </ul>
+
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Comunicativo</li>
+                <li>Paciente</li>
+                <li>Proativo</li>
+                <li>Resiliente</li>
+            </ul>
+        </section>
+
+        <section id="contato" style="color: white; padding: 20px;">
+            <h2 style="color: #FF4500;">Contato</h2>
+            <p>Telefone: (11) 98739-6140</p>
+            <p>Email: <a href="mailto:isaacarvalho_pro@outlook.com" style="color: #FF4500;">isaacarvalho_pro@outlook.com</a></p>
+            <p>Endereço: Rua Tereza Cristina Maciel, Bela Vista, Gaspar - SC</p>
+        </section>
+
+        <section id="tabela" style="color: white; padding: 20px;">
+            <h2 style="color: #FF4500;">Agenda Semanal</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Atividade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>Trabalho (7:30 - 17:00) <br> Faculdade (18:30 - 22:00) <br> Treino (22:00 - 23:00)</td>
+                    </tr>
+                    <tr>
+                        <td>Terça</td>
+                        <td>Trabalho (7:30 - 17:00) <br> Faculdade (18:30 - 22:00) <br> Treino (22:00 - 23:00)</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>Trabalho (7:30 - 17:00) <br> Faculdade (18:30 - 22:00) <br> Treino (22:00 - 23:00)</td>
+                    </tr>
+                    <tr>
+                        <td>Quinta</td>
+                        <td>Trabalho (7:30 - 17:00) <br> Faculdade (18:30 - 22:00) <br> Treino (22:00 - 23:00)</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>Trabalho (7:30 - 17:00) <br> Faculdade (18:30 - 22:00) <br> Treino (22:00 - 23:00)</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>Treino (horário livre)</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>Descanso</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer style="color: white; text-align: center; padding: 20px;">
+        <p>&copy; 2024 Isaac Carvalho Da Mota. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
